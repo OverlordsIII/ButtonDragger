@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "buttondragger",
+  "version": "${version}",
+  "name": "Buttondragger",
+  "description": "A mod that allows you to drag buttons. Everywhere.",
+  "authors": [
+    "OverlordsIII"
+  ],
+  "contact": {
+    "homepage": "PLEASE PUT SOMETHING HERE",
+    "sources": "PLEASE PUT SOMETHING HERE"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/buttondragger-1.16.4/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "io.github.overlordsiii.buttondragger.ButtonDragger"
+    ]
+  },
+  "mixins": [
+    "buttondragger.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.6+build.214",
+    "minecraft": "1.16.4"
+  }
+}

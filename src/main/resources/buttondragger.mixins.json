@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "io.github.overlordsiii.buttondragger.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "AbstractButtonWidetInvoker",
+    "AbstractPressableButtonWidgetMixin",
+    "HandledScreenMixin",
+    "MinecraftClientMixin",
+    "ScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
